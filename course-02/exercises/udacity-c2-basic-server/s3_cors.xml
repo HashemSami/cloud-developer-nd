@@ -1,3 +1,6 @@
+<!-- this is a CORS(cross origin recourse policy) policy for an S3 bucket set in AWS to allow our application 
+ to grab the access URL (for getting and posting objects from or to our bucket)  -->
+ <!-- we are setting AlloeOrigin to accept all kind of requests and allowing all kind of methods and headers -->
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
